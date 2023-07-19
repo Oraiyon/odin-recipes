@@ -1,3 +1,7 @@
 .PizzaLink,.DoughLink{
     text-decoration: none;
 }
+.Photo.Pizza{
+    width:350px ;
+    height:auto;
+}
