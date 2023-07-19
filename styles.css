@@ -1,11 +1,11 @@
 .PizzaLink,.DoughLink{
     text-decoration: none;
 }
-.Photo.Pizza{
+.Contents{
     width:350px ;
     height:auto;
 }
-.Pizza.Description{
+.Photo#Pizza,#Dough{
     width: 350px;
     height: auto;
 }
