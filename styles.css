@@ -12,7 +12,7 @@
     border: 2px red solid;
     padding: 8px;
 }
-.PizzaPhoto,.DoughPhoto{
+.PizzaPhoto, .DoughPhoto{
     box-sizing: border-box;
     width: 350px;
     height: auto;
@@ -39,4 +39,7 @@ span.ThirdWord, .Title4{
  }
  span{
     font-size: 35px;
+ }
+ .DoughPhoto{
+    display: block;
  }
