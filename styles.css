@@ -9,9 +9,15 @@
     width: 350px;
     height: auto;
 }
-.Title1{
+span.FirstWord{
     color: red;
+    text-shadow: 2px 2px black;
 }
-.Title2{
-    color: rgb(10, 175, 10);
+span.SecondWord{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+span.ThirdWord{
+    color: green;
+    text-shadow: 2px 2px black;
 }
