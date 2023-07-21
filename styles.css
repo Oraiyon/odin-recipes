@@ -12,11 +12,9 @@
     border: 2px red solid;
     padding: 8px;
     background-color: antiquewhite;
-}
-.PizzaPhoto, .DoughPhoto{
-    box-sizing: border-box;
-    width: 350px;
-    height: auto;
+} 
+span{
+    font-size: 35px;
 }
 span.FirstWord, .Title2{
     color: red;
@@ -30,18 +28,15 @@ span.ThirdWord, .Title4{
     color: green;
     text-shadow: 2px 2px black;
 }
-
- h1, h2{
-    margin: 8px 0;
+.PizzaPhoto, .DoughPhoto{
+    box-sizing: border-box;
+    width: 350px;
+    height: auto;
+}
+ h2{
     font-size: 30px;
  }
- ul, ol{
-    margin: 8px;
- }
- span{
-    font-size: 35px;
- }
- .DoughPhoto{
-    display: block;
-    margin-top: 8px;
+
+ .PizzaPhoto, .DoughPhoto{
+    display: inline-block;
  }
