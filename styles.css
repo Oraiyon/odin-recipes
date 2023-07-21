@@ -42,3 +42,6 @@ span.ThirdWord, .Title4{
  .Contents, .PizzaPhoto, .DoughPhoto{
     display: inline-block;
  }
+ .Contents{
+    width: 500px;
+ }
