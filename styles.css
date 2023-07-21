@@ -5,9 +5,9 @@
 .PizzaLink,.DoughLink{
     text-decoration: none;
 }
-.Page{
+.Contents{
     box-sizing: border-box;
-    width:1000px ;
+    width:850px ;
     height:auto;
     border: 2px red solid;
     padding: 8px;
@@ -42,8 +42,6 @@ span.ThirdWord, .Title4{
     font-size: 35px;
  }
  .DoughPhoto{
+    display: block;
     margin-top: 8px;
- }
- .Photo, .Title2{
-    display: inline-block;
  }
