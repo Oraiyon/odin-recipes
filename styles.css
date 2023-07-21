@@ -1,23 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 .PizzaLink,.DoughLink{
     text-decoration: none;
 }
 .Contents{
-    width:350px ;
+    box-sizing: border-box;
+    width:850px ;
     height:auto;
+    border: 2px red solid;
+    padding: 8px;
 }
-.Photo#Pizza,#Dough{
+.PizzaPhoto,.DoughPhoto{
+    box-sizing: border-box;
     width: 350px;
     height: auto;
 }
-span.FirstWord{
+span.FirstWord, .Title2{
     color: red;
     text-shadow: 2px 2px black;
 }
-span.SecondWord{
+span.SecondWord, .Title3{
     color: white;
     text-shadow: 2px 2px black;
 }
-span.ThirdWord{
+span.ThirdWord, .Title4{
     color: green;
     text-shadow: 2px 2px black;
 }
+
+ h1, h2{
+    margin: 8px 0;
+    font-size: 30px;
+ }
+ ul, ol{
+    margin: 8px;
+ }
+ span{
+    font-size: 35px;
+ }
