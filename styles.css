@@ -15,6 +15,7 @@
 } 
 span{
     font-size: 35px;
+    margin: 8px;
 }
 span.FirstWord, .Title2{
     color: red;
@@ -32,11 +33,12 @@ span.ThirdWord, .Title4{
     box-sizing: border-box;
     width: 350px;
     height: auto;
+    margin: 8px;
 }
  h2{
     font-size: 30px;
  }
 
- .PizzaPhoto, .DoughPhoto{
+ .Contents, .PizzaPhoto, .DoughPhoto{
     display: inline-block;
  }
